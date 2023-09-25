@@ -1,6 +1,6 @@
 <?php
 
-namespace Wexample\SymfonyMoney\FormProcessor\Traits;
+namespace Wexample\SymfonyMoney\Service\FormProcessor\Traits;
 
 use Symfony\Component\Form\FormInterface;
 use Wexample\SymfonyHelpers\Entity\Interfaces\AbstractEntityInterface;
