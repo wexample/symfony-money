@@ -2,7 +2,7 @@
 
 namespace Wexample\SymfonyMoney;
 
-use Wexample\SymfonyHelpers\AbstractBundle;
+use Wexample\SymfonyHelpers\Class\AbstractBundle;
 
 class WexampleSymfonyMoneyBundle extends AbstractBundle
 {
