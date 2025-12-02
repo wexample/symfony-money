@@ -14,7 +14,7 @@ trait PricedFormProcessorTrait
     ) {
         $fieldSwitch = $form->has('priceTotalOverrideSwitch') ? $form->get('priceTotalOverrideSwitch') : null;
 
-        if (!$fieldSwitch || !$fieldSwitch->getData()) {
+        if (! $fieldSwitch || ! $fieldSwitch->getData()) {
             $entity->setPriceOverridden(null);
         }
 
