@@ -1,6 +1,6 @@
 # wexample/symfony-money
 
-Version: 1.0.69
+Version: 1.0.70
 
 Symfony helpers to manage priced entities
 
@@ -129,7 +129,7 @@ Refer to each package's documentation for specific version compatibility require
 
 ## Dependencies
 
-- wexample/symfony-helpers: 1.0.81
+- wexample/symfony-helpers: 1.0.82
 
 
 # About us
