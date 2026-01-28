@@ -1,21 +1,21 @@
 {
-    "name": "wexample/symfony-money",
-    "description": "Symfony helpers to manage priced entities",
-    "type": "library",
-    "license": "MIT",
-    "version": "1.0.76",
-    "autoload": {
-        "psr-4": {
-            "Wexample\\SymfonyMoney\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "weeger",
-            "email": "romain.weeger@wexample.com"
-        }
-    ],
-    "require": {
-        "wexample/symfony-helpers": "*"
+  "name": "wexample/symfony-money",
+  "description": "Symfony helpers to manage priced entities",
+  "type": "library",
+  "license": "MIT",
+  "version": "1.0.77",
+  "autoload": {
+    "psr-4": {
+      "Wexample\\SymfonyMoney\\": "src/"
     }
+  },
+  "authors": [
+    {
+      "name": "weeger",
+      "email": "romain.weeger@wexample.com"
+    }
+  ],
+  "require": {
+    "wexample/symfony-helpers": "1.0.89"
+  }
 }
