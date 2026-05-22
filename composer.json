@@ -3,7 +3,7 @@
   "description": "Symfony helpers to manage priced entities",
   "type": "library",
   "license": "MIT",
-  "version": "1.0.81",
+  "version": "1.0.82",
   "autoload": {
     "psr-4": {
       "Wexample\\SymfonyMoney\\": "src/"
@@ -16,6 +16,6 @@
     }
   ],
   "require": {
-    "wexample/symfony-helpers": "*"
+    "wexample/symfony-helpers": ">=1.0.93"
   }
 }
