@@ -1,6 +1,6 @@
 # symfony_money
 
-Version: 1.0.85
+Version: 1.0.86
 
 Symfony helpers to manage priced entities
 
