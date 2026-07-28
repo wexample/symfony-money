@@ -3,6 +3,7 @@
 namespace Wexample\SymfonyMoney\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Wexample\Pseudocode\Attribute\PseudocodeExport;
 use Wexample\SymfonyHelpers\Entity\AbstractEntity;
 use Wexample\SymfonyHelpers\Entity\Traits\HasDecimalsTrait;
 use Wexample\SymfonyHelpers\Entity\Traits\HasNameTrait;
@@ -13,6 +14,7 @@ use Wexample\SymfonyMoney\Repository\CurrencyRepository;
 
 #[ORM\Entity(repositoryClass: CurrencyRepository::class)]
 #[ORM\Table(name: 'currency')]
+#[PseudocodeExport(inherited: true)]
 class Currency extends AbstractEntity
 {
     use HasCurrencyCodeTrait;

@@ -18,6 +18,7 @@
   "require": {
     "wexample/symfony-helpers": ">=4.0.0",
     "wexample/symfony-api": ">=2.0.0",
+    "wexample/php-pseudocode": ">=1.0.0",
     "symfony/intl": ">=6.2"
   }
 }
