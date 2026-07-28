@@ -26,7 +26,7 @@ class PublicCurrencyDto extends AbstractEntityDto
      */
     public static function fromEntity(AbstractEntity $entity): self
     {
-        $dto = static::fromEntity($entity);
+        $dto = parent::fromEntity($entity);
 
         $dto->currencyCode = $entity->getCurrencyCode();
         $dto->currencySymbol = $entity->getCurrencySymbol();
