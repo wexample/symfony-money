@@ -26,6 +26,7 @@ class CurrencyRepository extends AbstractRepository
         string $type,
     ): Currency {
         $currency = new Currency();
+        $currency->setGeneratedSecureId();
         $currency->setCurrencyCode($currencyCode)
             ->setName($name)
             ->setCurrencySymbol($currencySymbol)
