@@ -13,7 +13,7 @@ class CurrencyController extends AbstractApiController
 {
     final public const ROUTE_IMPORT = 'import';
 
-    #[Route(path: 'import', name: self::ROUTE_IMPORT, methods: [Request::METHOD_POST])]
+    #[Route(path: 'import', name: self::ROUTE_IMPORT, methods: [Request::METHOD_POST, self::ROUTE_OPTION_KEY_EXPOSE => true])]
     public function import(CurrencyService $currencyService): ApiResponse
     {
         $currencyService->seed();
