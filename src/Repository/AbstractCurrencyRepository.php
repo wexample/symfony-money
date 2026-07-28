@@ -2,25 +2,29 @@
 
 namespace Wexample\SymfonyMoney\Repository;
 
-use Doctrine\Persistence\ManagerRegistry;
 use Wexample\SymfonyHelpers\Repository\AbstractRepository;
 use Wexample\SymfonyMoney\Entity\AbstractCurrency;
+use Wexample\SymfonyMoney\Entity\Traits\Manipulator\AbstractCurrencyEntityManipulatorTrait;
 
 /**
  * @method AbstractCurrency|null find($id, $lockMode = null, $lockVersion = null)
  * @method AbstractCurrency|null findOneBy(array $criteria, array $orderBy = null)
  * @method AbstractCurrency|null findOneByCode(string $code)
+ * @method AbstractCurrency|null saveNewCurrency(string $code, string $name, string $symbol, int $decimals, string $type)
  * @method AbstractCurrency[]    findAll()
  * @method AbstractCurrency[]    findBy(array $criteria, array $orderBy = null, $limit = null, $offset = null)
  */
 abstract class AbstractCurrencyRepository extends AbstractRepository
 {
-    public function __construct(
-        ManagerRegistry $registry,
-        $entityClass = AbstractCurrency::class
-    ) {
-        parent::__construct($registry, $entityClass);
-    }
+    use AbstractCurrencyEntityManipulatorTrait;
+
+    abstract public function createNewCurrency(
+        string $code,
+        string $name,
+        string $symbol,
+        int $decimals,
+        string $type,
+    ): AbstractCurrency;
 
     public function findByCode(string $code): ?AbstractCurrency
     {
