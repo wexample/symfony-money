@@ -4,7 +4,7 @@ namespace Wexample\SymfonyMoney\Data;
 
 use Symfony\Component\Intl\Currencies;
 use Wexample\SymfonyMoney\Constant\CryptoCurrencyConstant;
-use Wexample\SymfonyMoney\Entity\AbstractCurrency;
+use Wexample\SymfonyMoney\Entity\Currency;
 
 class CurrencyData
 {
@@ -31,7 +31,7 @@ class CurrencyData
                 'name'     => Currencies::getName($code, 'en'),
                 'symbol'   => Currencies::getSymbol($code, 'en'),
                 'decimals' => Currencies::getFractionDigits($code),
-                'type'     => AbstractCurrency::TYPE_FIAT,
+                'type'     => Currency::TYPE_FIAT,
             ];
         }
 
@@ -48,7 +48,7 @@ class CurrencyData
                 'name'     => $data['name'],
                 'symbol'   => $data['symbol'],
                 'decimals' => $data['decimals'],
-                'type'     => AbstractCurrency::TYPE_CRYPTO,
+                'type'     => Currency::TYPE_CRYPTO,
             ];
         }
 
