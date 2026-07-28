@@ -5,5 +5,5 @@ services:
         public: false
 
     Wexample\SymfonyMoney\:
-        resource: '../../{Controller,Repository,Service}'
+        resource: '../../{Api,Repository,Service}'
         tags: ['controller.service_arguments']
