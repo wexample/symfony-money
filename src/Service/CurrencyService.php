@@ -2,22 +2,14 @@
 
 namespace Wexample\SymfonyMoney\Service;
 
-use Doctrine\ORM\EntityManagerInterface;
-use Wexample\SymfonyHelpers\Service\Entity\AbstractEntityService;
 use Wexample\SymfonyMoney\Data\CurrencyData;
-use Wexample\SymfonyMoney\Entity\Traits\Manipulator\AbstractCurrencyEntityManipulatorTrait;
-use Wexample\SymfonyMoney\Repository\AbstractCurrencyRepository;
+use Wexample\SymfonyMoney\Repository\CurrencyRepository;
 
-class CurrencyService extends AbstractEntityService
+class CurrencyService
 {
-    use AbstractCurrencyEntityManipulatorTrait;
-
     public function __construct(
-        EntityManagerInterface $entityManager,
-        private readonly AbstractCurrencyRepository $currencyRepository,
-    ) {
-        parent::__construct($entityManager);
-    }
+        private readonly CurrencyRepository $currencyRepository,
+    ) {}
 
     public function seed(): void
     {
@@ -25,11 +17,10 @@ class CurrencyService extends AbstractEntityService
             $currency = $this->currencyRepository->findByCode($data['code']);
 
             if ($currency) {
-                $currency
-                    ->setName($data['name'])
+                $currency->setName($data['name'])
                     ->setSymbol($data['symbol'])
-                    ->setDecimals($data['decimals'])
-                    ->setType($data['type']);
+                    ->setDecimals($data['decimals']);
+                $currency->setType($data['type']);
 
                 $this->currencyRepository->save($currency);
             } else {

@@ -7,8 +7,11 @@ use Doctrine\ORM\Mapping as ORM;
 use Wexample\SymfonyHelpers\Entity\AbstractEntity;
 use Wexample\SymfonyHelpers\Entity\Traits\HasNameTrait;
 use Wexample\SymfonyHelpers\Entity\Traits\HasTypeTrait;
+use Wexample\SymfonyMoney\Repository\CurrencyRepository;
 
-abstract class AbstractCurrency extends AbstractEntity
+#[ORM\Entity(repositoryClass: CurrencyRepository::class)]
+#[ORM\Table(name: 'wex_money_currency')]
+class Currency extends AbstractEntity
 {
     use HasNameTrait;
     use HasTypeTrait;
