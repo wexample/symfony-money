@@ -10,7 +10,7 @@ use Wexample\SymfonyHelpers\Entity\Traits\HasTypeTrait;
 use Wexample\SymfonyMoney\Repository\CurrencyRepository;
 
 #[ORM\Entity(repositoryClass: CurrencyRepository::class)]
-#[ORM\Table(name: 'wex_money_currency')]
+#[ORM\Table(name: 'currency')]
 class Currency extends AbstractEntity
 {
     use HasNameTrait;
