@@ -9,8 +9,8 @@ use Wexample\SymfonyMoney\Entity\Traits\Manipulator\CurrencyEntityManipulatorTra
 /**
  * @method Currency|null find($id, $lockMode = null, $lockVersion = null)
  * @method Currency|null findOneBy(array $criteria, array $orderBy = null)
- * @method Currency|null findOneByCode(string $code)
- * @method Currency|null saveNewCurrency(string $code, string $name, string $symbol, int $decimals, string $type)
+ * @method Currency|null findOneByCurrencyCode(string $currencyCode)
+ * @method Currency|null saveNewCurrency(string $currencyCode, string $name, string $currencySymbol, int $decimals, string $type)
  * @method Currency[]    findAll()
  * @method Currency[]    findBy(array $criteria, array $orderBy = null, $limit = null, $offset = null)
  */
@@ -19,25 +19,25 @@ class CurrencyRepository extends AbstractRepository
     use CurrencyEntityManipulatorTrait;
 
     public function createNewCurrency(
-        string $code,
+        string $currencyCode,
         string $name,
-        string $symbol,
+        string $currencySymbol,
         int $decimals,
         string $type,
     ): Currency {
         $currency = new Currency();
-        $currency->setCode($code)
+        $currency->setCurrencyCode($currencyCode)
             ->setName($name)
-            ->setSymbol($symbol)
+            ->setCurrencySymbol($currencySymbol)
             ->setDecimals($decimals);
         $currency->setType($type);
 
         return $currency;
     }
 
-    public function findByCode(string $code): ?Currency
+    public function findByCurrencyCode(string $currencyCode): ?Currency
     {
-        return $this->findOneBy(['code' => $code]);
+        return $this->findOneBy(['currencyCode' => $currencyCode]);
     }
 
     /**
