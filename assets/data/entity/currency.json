@@ -1,0 +1,261 @@
+{
+    "name": "currency",
+    "package": "@wexample/symfony-money",
+    "type": "class",
+    "properties": [
+        {
+            "name": "id",
+            "type": "mixed",
+            "default": null
+        },
+        {
+            "name": "secureId",
+            "type": "string"
+        },
+        {
+            "name": "currencyCode",
+            "type": "string"
+        },
+        {
+            "name": "currencySymbol",
+            "type": "string"
+        },
+        {
+            "name": "decimals",
+            "type": "int",
+            "default": 2
+        },
+        {
+            "name": "name",
+            "type": "string",
+            "nullable": true,
+            "default": null
+        },
+        {
+            "name": "type",
+            "type": "string",
+            "nullable": true,
+            "default": null
+        }
+    ],
+    "methods": [
+        {
+            "type": "method",
+            "name": "buildEntityPath",
+            "parameters": [
+                {
+                    "type": "string",
+                    "name": "className"
+                }
+            ],
+            "return": {
+                "type": "string"
+            }
+        },
+        {
+            "type": "method",
+            "name": "getEntityKeyName",
+            "return": {
+                "type": "string"
+            }
+        },
+        {
+            "type": "method",
+            "name": "getEntityShortName",
+            "return": {
+                "type": "string"
+            }
+        },
+        {
+            "type": "method",
+            "name": "getId",
+            "return": {
+                "type": "int"
+            }
+        },
+        {
+            "type": "method",
+            "name": "setId",
+            "parameters": [
+                {
+                    "type": "int",
+                    "name": "id"
+                }
+            ],
+            "return": {
+                "type": "void"
+            }
+        },
+        {
+            "type": "method",
+            "name": "getTableizedName",
+            "return": {
+                "type": "string"
+            }
+        },
+        {
+            "type": "method",
+            "name": "getCamelName",
+            "return": {
+                "type": "string"
+            }
+        },
+        {
+            "type": "method",
+            "name": "getCurrencyCode",
+            "return": {
+                "type": "string"
+            }
+        },
+        {
+            "type": "method",
+            "name": "setCurrencyCode",
+            "parameters": [
+                {
+                    "type": "string",
+                    "name": "currencyCode"
+                }
+            ],
+            "return": {
+                "type": "static"
+            }
+        },
+        {
+            "type": "method",
+            "name": "getCurrencySymbol",
+            "return": {
+                "type": "string"
+            }
+        },
+        {
+            "type": "method",
+            "name": "setCurrencySymbol",
+            "parameters": [
+                {
+                    "type": "string",
+                    "name": "currencySymbol"
+                }
+            ],
+            "return": {
+                "type": "static"
+            }
+        },
+        {
+            "type": "method",
+            "name": "getDecimals",
+            "return": {
+                "type": "int"
+            }
+        },
+        {
+            "type": "method",
+            "name": "setDecimals",
+            "parameters": [
+                {
+                    "type": "int",
+                    "name": "decimals"
+                }
+            ],
+            "return": {
+                "type": "static"
+            }
+        },
+        {
+            "type": "method",
+            "name": "getName",
+            "return": {
+                "type": "string"
+            }
+        },
+        {
+            "type": "method",
+            "name": "setName",
+            "parameters": [
+                {
+                    "type": "string",
+                    "name": "name"
+                }
+            ],
+            "return": {
+                "type": "self"
+            }
+        },
+        {
+            "type": "method",
+            "name": "setNameFromTitle",
+            "return": {
+                "type": "self"
+            }
+        },
+        {
+            "type": "method",
+            "name": "hasSomeType",
+            "parameters": [
+                {
+                    "type": "array",
+                    "name": "types"
+                }
+            ],
+            "return": {
+                "type": "bool"
+            }
+        },
+        {
+            "type": "method",
+            "name": "getType",
+            "return": {
+                "type": "string"
+            }
+        },
+        {
+            "type": "method",
+            "name": "setType",
+            "parameters": [
+                {
+                    "type": "string",
+                    "name": "type"
+                }
+            ],
+            "return": {
+                "type": "void"
+            }
+        },
+        {
+            "type": "method",
+            "name": "isOfType",
+            "parameters": [
+                {
+                    "type": "string",
+                    "name": "type"
+                }
+            ],
+            "return": {
+                "type": "bool"
+            }
+        },
+        {
+            "type": "method",
+            "name": "checkAllowedOrFail",
+            "parameters": [
+                {
+                    "type": "mixed",
+                    "name": "value"
+                },
+                {
+                    "type": "array",
+                    "name": "allowed"
+                }
+            ],
+            "return": {
+                "type": "void"
+            }
+        },
+        {
+            "type": "method",
+            "name": "getAllowedTypes",
+            "return": {
+                "type": "array"
+            }
+        }
+    ]
+}
