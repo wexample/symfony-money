@@ -1,0 +1,16 @@
+{%- extends '@WexampleSymfonyLoaderBundle/bases/form.html.twig' -%}
+
+{% block form_body %}
+    <div class="grid grid--2">
+        {{ form_row(form.currencyCode) }}
+        {{ form_row(form.name) }}
+    </div>
+    <div class="grid grid--3">
+        {{ form_row(form.type) }}
+        {{ form_row(form.currencySymbol) }}
+        {{ form_row(form.decimals) }}
+    </div>
+    <div class="form--actions">
+        {{ form_widget(form.submit) }}
+    </div>
+{% endblock %}

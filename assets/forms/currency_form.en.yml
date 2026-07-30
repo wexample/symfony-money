@@ -1,0 +1,26 @@
+field:
+  currencyCode:
+    label: Code
+  name:
+    label: Name
+  type:
+    label: Type
+    choice:
+      crypto:
+        label: Crypto
+      fiat:
+        label: Fiat
+  currencySymbol:
+    label: Symbol
+  decimals:
+    label: Decimals
+
+action:
+  submit: Save
+
+error:
+  ERR_CURRENCY_CODE_ALREADY_USED:
+    message: This currency code is already used.
+
+success:
+  message: Currency saved
