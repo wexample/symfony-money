@@ -4,6 +4,8 @@ namespace Wexample\SymfonyMoney\Api\Controller;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Attribute\Route;
+use Wexample\SymfonyApi\Api\Attribute\QueryOption\LengthQueryOption;
+use Wexample\SymfonyApi\Api\Attribute\QueryOption\PageQueryOption;
 use Wexample\SymfonyApi\Api\Class\ApiResponse;
 use Wexample\SymfonyApi\Api\Controller\AbstractApiController;
 use Wexample\SymfonyHelpers\Controller\AbstractController;
@@ -26,12 +28,26 @@ class CurrencyController extends AbstractApiController
     }
 
     #[Route(path: 'list', name: self::ROUTE_LIST, methods: AbstractController::ROUTE_OPTIONS_METHOD_ONLY_GET, options: AbstractController::ROUTE_OPTIONS_ONLY_EXPOSE)]
+    #[PageQueryOption]
+    #[LengthQueryOption]
     public function list(
+        Request $request,
         CurrencyRepository $currencyRepository,
         DefaultCurrencyNormalizer $normalizer,
     ): ApiResponse {
-        return self::apiResponseCollection(
-            $normalizer->normalizeCollection($currencyRepository->findAll())
+        $pagination = self::getQueryOptionPagination(
+            request: $request,
+            total: $currencyRepository->countAll()
+        );
+
+        return self::apiResponsePaginated(
+            pagination: $pagination,
+            items: $normalizer->normalizeCollection(
+                $currencyRepository->findPaginated(
+                    page: $pagination->page,
+                    length: $pagination->length
+                )
+            )
         );
     }
 }
