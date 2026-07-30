@@ -5,5 +5,12 @@ services:
         public: false
 
     Wexample\SymfonyMoney\:
-        resource: '../../{Api,Repository,Service}'
+        resource: '../../{Repository,Service}'
+
+    Wexample\SymfonyMoney\Api\Controller\:
+        resource: '../../Api/Controller/*'
         tags: ['controller.service_arguments']
+
+    Wexample\SymfonyMoney\Api\Normalizer\:
+        resource: '../../Api/Normalizer/*'
+        tags: ['serializer.normalizer']
