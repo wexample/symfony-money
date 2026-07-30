@@ -1,0 +1,10 @@
+name:
+  single: Currency
+  plural: Currencies
+
+field:
+  currencyCode: Code
+  name: Name
+  type: Type
+  currencySymbol: Symbol
+  decimals: Decimals
