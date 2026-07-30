@@ -4,8 +4,12 @@ services:
         autoconfigure: true
         public: false
 
+    _instanceof:
+        Wexample\SymfonyForms\Service\FormProcessor\AbstractFormProcessor:
+            tags: ['wexample.symfony_forms.form_processor']
+
     Wexample\SymfonyMoney\:
-        resource: '../../{Repository,Service}'
+        resource: '../../{Form,Repository,Service}'
 
     Wexample\SymfonyMoney\Api\Controller\:
         resource: '../../Api/Controller/*'
