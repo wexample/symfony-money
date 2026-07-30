@@ -1,6 +1,6 @@
 {
   "name": "wexample/symfony-money",
-  "description": "Symfony helpers to manage priced entities",
+  "description": "Symfony helpers to manage money, currencies and priced entities",
   "type": "library",
   "license": "MIT",
   "version": "1.0.88",
