@@ -15,6 +15,6 @@ class WexampleSymfonyMoneyBundle extends AbstractBundle implements PseudocodeBun
 
     public static function getLoaderFrontPaths(): array
     {
-        return [__DIR__ . '/../front/'];
+        return [__DIR__ . '/../assets/'];
     }
 }
