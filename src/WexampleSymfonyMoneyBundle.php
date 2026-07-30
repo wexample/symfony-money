@@ -3,6 +3,7 @@
 namespace Wexample\SymfonyMoney;
 
 use Wexample\SymfonyHelpers\Class\AbstractBundle;
+use Wexample\SymfonyHelpers\Helper\BundleHelper;
 use Wexample\SymfonyHelpers\Interface\LoaderBundleInterface;
 use Wexample\SymfonyPseudocode\Interface\PseudocodeBundleInterface;
 
@@ -15,6 +16,8 @@ class WexampleSymfonyMoneyBundle extends AbstractBundle implements PseudocodeBun
 
     public static function getLoaderFrontPaths(): array
     {
-        return [__DIR__ . '/../assets/'];
+        return [
+            BundleHelper::getBundleCssAlias(static::class) => __DIR__ . '/../assets/',
+        ];
     }
 }
