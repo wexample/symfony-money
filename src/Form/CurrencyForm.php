@@ -67,7 +67,6 @@ class CurrencyForm extends AbstractForm
                     self::FIELD_OPTION_NAME_LABEL => true,
                     self::FIELD_OPTION_NAME_REQUIRED => true,
                     'scale' => 0,
-                    'data' => 2,
                 ]
             );
 

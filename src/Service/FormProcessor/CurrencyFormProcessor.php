@@ -34,13 +34,17 @@ class CurrencyFormProcessor extends AbstractFormProcessor
         /** @var Currency $currency */
         $currency = $form->getData();
 
-        if ($this->currencyRepository->findByCurrencyCode($currency->getCurrencyCode())) {
+        $existing = $this->currencyRepository->findByCurrencyCode($currency->getCurrencyCode());
+
+        if ($existing && $existing !== $currency) {
             $this->addFormErrorFromApiKey($form, 'ERR_CURRENCY_CODE_ALREADY_USED');
 
             return;
         }
 
-        $currency->setGeneratedSecureId();
+        if (! $currency->getId()) {
+            $currency->setGeneratedSecureId();
+        }
 
         $this->entityManager->persist($currency);
         $this->entityManager->flush();
