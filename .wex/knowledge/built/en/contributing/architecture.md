@@ -1,19 +1,3 @@
-# symfony_money
-
-Version: 2.0.0
-
-A Symfony bundle for applications that store and display monetary amounts: it ships a Doctrine `Currency` entity carrying a code, a symbol, a name and a `decimals` count, typed as either `Currency::TYPE_FIAT` or `Currency::TYPE_CRYPTO`. `CurrencyService::seed()` fills that table from `CurrencyData`, which reads every fiat code from `Symfony\Component\Intl\Currencies` and adds a hand-maintained list of ten crypto-currencies (BTC, ETH, USDT, USDC, BNB, XRP, SOL, ADA, DOGE, TON). Around the entity come the pieces an application would otherwise rewrite — `HasCurrencyCodeTrait` and `HasCurrencySymbolTrait` to attach a currency to your own priced entities, a `CurrencyForm`, and the `api/currency/list` and `api/currency/import` endpoints.
-
-## Table of Contents
-
-- [Architecture](#architecture)
-- [Integration in the Suite](#integration-in-the-suite)
-- [Dependencies](#dependencies)
-- [Versioning & Compatibility Policy](#versioning--compatibility-policy)
-- [License](#license)
-- [About us](#about-us)
-- [Migration Notes](#migration-notes)
-
 ## Architecture
 
 The package is a single Symfony bundle around a single Doctrine entity, `Currency`. PHP lives under `src/` (PSR-4 `Wexample\SymfonyMoney\`), and the browser-side half — TypeScript entity, form template, translations — lives under `assets/`, which the bundle exposes to the loader. There is no `tests/` directory and no build step: Composer autoloading is the whole packaging.
@@ -66,52 +50,3 @@ Controllers get `controller.service_arguments`, normalizers get `serializer.norm
 ### Where the bundle stops
 
 The scope is the currency table and its edges. There is no amount or money value object here, no arithmetic, no exchange rate, and no price entity: an application stores its own amounts and attaches a currency to them. The two intended attachment points are `HasCurrencyCodeTrait` and `HasCurrencySymbolTrait`, meant to be used on your entities rather than only on `Currency` — which is why they live in `Entity/Traits/` and not inside the entity file.
-
-## Integration in the Suite
-
-This package is part of the Wexample Suite — a collection of high-quality, modular tools designed to work seamlessly together across multiple languages and environments.
-
-### Related Packages
-
-The suite includes packages for configuration management, file handling, prompts, and more. Each package can be used independently or as part of the integrated suite.
-
-Visit the [Wexample Suite documentation](https://docs.wexample.com) for the complete package ecosystem.
-
-## Dependencies
-
-- wexample/symfony-helpers: >=5.0.0
-- wexample/symfony-api: >=3.0.0
-- wexample/symfony-forms: >=2.0.0
-- wexample/php-pseudocode: >=1.0.0
-- wexample/symfony-pseudocode: >=2.0.0
-- symfony/intl: >=6.2
-
-## Versioning & Compatibility Policy
-
-Wexample packages follow **Semantic Versioning** (SemVer):
-
-- **MAJOR**: Breaking changes
-- **MINOR**: New features, backward compatible
-- **PATCH**: Bug fixes, backward compatible
-
-We maintain backward compatibility within major versions and provide clear migration guides for breaking changes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-Free to use in both personal and commercial projects.
-
-## About us
-
-[Wexample](https://wexample.com) stands as a cornerstone of the digital ecosystem — a collective of seasoned engineers, researchers, and creators driven by a relentless pursuit of technological excellence. More than a media platform, it has grown into a vibrant community where innovation meets craftsmanship, and where every line of code reflects a commitment to clarity, durability, and shared intelligence.
-
-This packages suite embodies this spirit. Trusted by professionals and enthusiasts alike, it delivers a consistent, high-quality foundation for modern development — open, elegant, and battle-tested. Its reputation is built on years of collaboration, refinement, and rigorous attention to detail, making it a natural choice for those who demand both robustness and beauty in their tools.
-
-Wexample cultivates a culture of mastery. Each package, each contribution carries the mark of a community that values precision, ethics, and innovation — a community proud to shape the future of digital craftsmanship.
-
-## Migration Notes
-
-When upgrading between major versions, refer to the migration guides in the documentation.
-
-Breaking changes are clearly documented with upgrade paths and examples.

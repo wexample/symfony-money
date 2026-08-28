@@ -9,7 +9,8 @@ class CurrencyService
 {
     public function __construct(
         private readonly CurrencyRepository $currencyRepository,
-    ) {}
+    ) {
+    }
 
     public function seed(): void
     {

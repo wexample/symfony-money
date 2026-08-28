@@ -3,7 +3,7 @@
   "description": "Symfony helpers to manage money, currencies and priced entities",
   "type": "library",
   "license": "MIT",
-  "version": "1.0.88",
+  "version": "2.0.0",
   "autoload": {
     "psr-4": {
       "Wexample\\SymfonyMoney\\": "src/"
@@ -16,10 +16,11 @@
     }
   ],
   "require": {
-    "wexample/symfony-helpers": ">=4.0.0",
-    "wexample/symfony-api": ">=2.0.0",
-    "wexample/symfony-forms": ">=1.0.0",
+    "wexample/symfony-helpers": ">=5.0.0",
+    "wexample/symfony-api": ">=3.0.0",
+    "wexample/symfony-forms": ">=2.0.0",
     "wexample/php-pseudocode": ">=1.0.0",
+    "wexample/symfony-pseudocode": ">=2.0.0",
     "symfony/intl": ">=6.2"
   }
 }
