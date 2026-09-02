@@ -11,7 +11,7 @@ use Wexample\SymfonyMoney\Repository\CurrencyRepository;
 
 class CurrencyFormDataResolver implements FormProcessorDataResolverInterface
 {
-    private const string ROUTE_PARAM_SECURE_ID = 'secureId';
+    private const string ROUTE_PARAM_ID = 'id';
 
     public function __construct(
         private readonly CurrencyRepository $currencyRepository
@@ -22,14 +22,14 @@ class CurrencyFormDataResolver implements FormProcessorDataResolverInterface
         Request $request,
         array $options = []
     ): mixed {
-        $secureId = $request->attributes->get(self::ROUTE_PARAM_SECURE_ID);
+        $id = $request->attributes->get(self::ROUTE_PARAM_ID);
 
         $currency = $this->currencyRepository->findOneBy([
-            self::ROUTE_PARAM_SECURE_ID => $secureId,
+            self::ROUTE_PARAM_ID => $id,
         ]);
 
         if (! $currency) {
-            throw new NotFoundHttpException('Currency not found: ' . $secureId);
+            throw new NotFoundHttpException('Currency not found: ' . $id);
         }
 
         return $currency;

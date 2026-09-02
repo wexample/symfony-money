@@ -42,10 +42,6 @@ class CurrencyFormProcessor extends AbstractFormProcessor
             return;
         }
 
-        if (! $currency->getId()) {
-            $currency->setGeneratedSecureId();
-        }
-
         $this->entityManager->persist($currency);
         $this->entityManager->flush();
 

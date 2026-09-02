@@ -8,8 +8,6 @@ use Wexample\SymfonyMoney\Entity\Currency;
 
 class PublicCurrencyDto extends AbstractEntityDto
 {
-    public string $secureId;
-
     public string $currencyCode;
 
     public string $currencySymbol;
