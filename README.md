@@ -1,6 +1,6 @@
 # symfony_money
 
-Version: 2.0.0
+Version: 3.0.0
 
 A Symfony bundle for applications that store and display monetary amounts: it ships a Doctrine `Currency` entity carrying a code, a symbol, a name and a `decimals` count, typed as either `Currency::TYPE_FIAT` or `Currency::TYPE_CRYPTO`. `CurrencyService::seed()` fills that table from `CurrencyData`, which reads every fiat code from `Symfony\Component\Intl\Currencies` and adds a hand-maintained list of ten crypto-currencies (BTC, ETH, USDT, USDC, BNB, XRP, SOL, ADA, DOGE, TON). Around the entity come the pieces an application would otherwise rewrite — `HasCurrencyCodeTrait` and `HasCurrencySymbolTrait` to attach a currency to your own priced entities, a `CurrencyForm`, and the `api/currency/list` and `api/currency/import` endpoints.
 
@@ -79,9 +79,9 @@ Visit the [Wexample Suite documentation](https://docs.wexample.com) for the comp
 
 ## Dependencies
 
-- wexample/symfony-helpers: >=5.0.0
-- wexample/symfony-api: >=3.0.0
-- wexample/symfony-forms: >=2.0.0
+- wexample/symfony-helpers: >=6.0.0
+- wexample/symfony-api: >=4.0.0
+- wexample/symfony-forms: >=3.0.0
 - wexample/php-pseudocode: >=1.0.0
 - wexample/symfony-pseudocode: >=2.0.0
 - symfony/intl: >=6.2
