@@ -35,7 +35,7 @@ Controllers get `controller.service_arguments`, normalizers get `serializer.norm
 
 `Api/` — a controller, a normalizer and a DTO, each in its own subtree. `PublicCurrencyDto` is the only shape the API exposes: `secureId`, `currencyCode`, `currencySymbol`, `decimals`, `name`, `type`.
 
-`Form/` and `Service/FormProcessor/` — the admin-side triplet: the form definition, the processor that validates and saves, and a data resolver that turns a request into the entity to edit.
+`Form/` and `Service/FormProcessor/` — the admin-side pair: the form definition and the processor that validates and saves. No resolver: `EntityFormDataResolver` from `wexample/symfony-forms` loads the edited row for every entity.
 
 `assets/` — `Entity/Currency.ts` and `Repository/CurrencyRepository.ts` mirror the PHP pair for `@wexample/js-api`, `forms/currency_form.html.twig` renders the form, and the two `.en.yml` files carry the labels the form and the entity display.
 
