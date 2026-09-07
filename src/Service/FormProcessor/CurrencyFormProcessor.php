@@ -9,7 +9,6 @@ use Symfony\Component\HttpFoundation\RequestStack;
 use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
 use Wexample\SymfonyForms\Service\FormProcessor\AbstractFormProcessor;
 use Wexample\SymfonyMoney\Entity\Currency;
-use Wexample\SymfonyMoney\Form\CurrencyForm;
 use Wexample\SymfonyMoney\Repository\CurrencyRepository;
 
 class CurrencyFormProcessor extends AbstractFormProcessor
@@ -22,11 +21,6 @@ class CurrencyFormProcessor extends AbstractFormProcessor
         private readonly CurrencyRepository $currencyRepository
     ) {
         parent::__construct($formFactory, $requestStack, $urlGenerator);
-    }
-
-    public static function getFormClass(): string
-    {
-        return CurrencyForm::class;
     }
 
     public function onValid(FormInterface $form): void
