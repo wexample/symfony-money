@@ -18,7 +18,6 @@ class CurrencyForm extends AbstractForm
 
         $resolver->setDefaults([
             'data_class' => Currency::class,
-            'translation_domain' => 'WexampleSymfonyMoneyBundle.forms.currency_form',
         ]);
     }
 
