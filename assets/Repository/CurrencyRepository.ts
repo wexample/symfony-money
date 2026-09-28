@@ -1,4 +1,4 @@
-import AbstractApiRepository from '@wexample/js-api/Common/AbstractApiRepository';
+import AbstractApiRepository from '@wexample/js-api-entity/Common/AbstractApiRepository';
 import Currency from '../Entity/Currency';
 
 export default class CurrencyRepository extends AbstractApiRepository<Currency> {
