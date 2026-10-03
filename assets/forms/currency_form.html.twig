@@ -10,7 +10,5 @@
         {{ form_row(form.currencySymbol) }}
         {{ form_row(form.decimals) }}
     </div>
-    <div class="form--actions">
-        {{ form_widget(form.submit) }}
-    </div>
+    {{ form_actions(form) }}
 {% endblock %}
