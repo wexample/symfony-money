@@ -4,6 +4,10 @@ Opened: 2026-09-24
 Updated: 2026-09-24
 Author: agent:archeology
 
+## Status (2026-10-04)
+
+Done: interfaces (Priced, PricedParent, PricedChild, Quantified, VatRated, Discounted), traits (PricedSingle/Child/Parent, HasPriceVat, HasQuantity, HasPriceDiscount, HasPriceFee, HasPriceCurrency), PriceUnit enum, PriceCalculatorHelper (discount spread over VAT bases, override kept apart from the total), RateHelper, MoneyHelper::fromDecimal (rounds), MoneyFormatter; tests in tests/Unit. Left: the optional PricedFormProcessorTrait.
+
 ## Read this first — status of this todo
 
 > **This is a proposal for discussion, not an order to code.** It was written by the 2026-09 network archaeology pass. Read it, then discuss it with the owner: every design choice and recommendation below is to be challenged and validated **before** any code is written. Do not start implementing on your own.

@@ -9,6 +9,11 @@
       "Wexample\\SymfonyMoney\\": "src/"
     }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "Wexample\\SymfonyMoney\\Tests\\": "tests/"
+    }
+  },
   "authors": [
     {
       "name": "weeger",
@@ -24,6 +29,18 @@
     "wexample/symfony-pseudocode": ">=3.0.0",
     "symfony/intl": ">=6.2"
   },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../*",
+      "options": {
+        "symlink": true
+      }
+    }
+  ],
   "extra": {
     "install": {
       "bundle_env": "all"

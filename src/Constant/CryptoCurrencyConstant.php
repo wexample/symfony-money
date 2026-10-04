@@ -29,4 +29,17 @@ class CryptoCurrencyConstant
     final public const SYMBOL_USDC = 'USDC';
     final public const SYMBOL_USDT = '₮';
     final public const SYMBOL_XRP = 'XRP';
+
+    final public const DECIMALS = [
+        self::ADA => 6,
+        self::BNB => 8,
+        self::BTC => 8,
+        self::DOGE => 8,
+        self::ETH => 18,
+        self::SOL => 9,
+        self::TON => 9,
+        self::USDC => 6,
+        self::USDT => 6,
+        self::XRP => 6,
+    ];
 }

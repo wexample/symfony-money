@@ -9,7 +9,11 @@ services:
             tags: ['wexample.symfony_forms.form_processor']
 
     Wexample\SymfonyMoney\:
-        resource: '../../{Form,Repository,Service}'
+        resource: '../../{Form,Repository,Service,Twig}'
+
+    Wexample\SymfonyMoney\Service\MoneyFormatter:
+        arguments:
+            $defaultLocale: '%kernel.default_locale%'
 
     Wexample\SymfonyMoney\Api\Controller\:
         resource: '../../Api/Controller/*'

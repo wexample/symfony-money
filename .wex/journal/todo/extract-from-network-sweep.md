@@ -4,6 +4,10 @@ Opened: 2026-09-24
 Updated: 2026-09-24
 Author: agent:archeology
 
+## Status (2026-10-04)
+
+Done (step 1): MoneyFormatter and the Twig filters `price`, `price_number`, `rate`, locale-aware, tested fr/en. Left: the JS formatter (step 2) and the live priced-form JS (step 3), with the front-end work.
+
 ## Read this first — status of this todo
 
 > **This is a proposal for discussion, not an order to code.** It was written by the 2026-09 network archaeology pass. Read it, then discuss it with the owner: every design choice and recommendation below is to be challenged and validated **before** any code is written. Do not start implementing on your own.
