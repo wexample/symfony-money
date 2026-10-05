@@ -1,11 +1,41 @@
 # symfony_money
 
-Version: 4.0.8
+Version: 5.0.0
 
 A Symfony bundle for applications that store and display monetary amounts: it ships a Doctrine `Currency` entity carrying a code, a symbol, a name and a `decimals` count, typed as either `Currency::TYPE_FIAT` or `Currency::TYPE_CRYPTO`. `CurrencyService::seed()` fills that table from `CurrencyData`, which reads every fiat code from `Symfony\Component\Intl\Currencies` and adds a hand-maintained list of ten crypto-currencies (BTC, ETH, USDT, USDC, BNB, XRP, SOL, ADA, DOGE, TON). Around the entity come the pieces an application would otherwise rewrite — `HasCurrencyCodeTrait` and `HasCurrencySymbolTrait` to attach a currency to your own priced entities, a `CurrencyForm`, and the `api/currency/list` and `api/currency/import` endpoints.
 
+## Prices
+
+Amounts are `int` minor units, rates `int` basis points (2000 = 20 %). A priced entity uses the traits matching its role and implements the interfaces the calculator reads:
+
+```php
+class Product implements PricedInterface, VatRatedInterface
+{
+    use PricedSingleTrait;   // priceRaw, priceTotal, priceOverridden
+    use HasPriceVatTrait;    // priceVat
+}
+
+class Order implements PricedParentInterface, DiscountedInterface
+{
+    use PricedParentTrait;       // sums its children
+    use HasPriceDiscountTrait;   // money or percent, spread over the VAT bases
+}
+
+class OrderLine implements PricedChildInterface, QuantifiedInterface, VatRatedInterface
+{
+    use PricedChildTrait;    // refreshes its parent
+    use HasQuantityTrait;    // scaled by getQuantityScale(): 100 lets 150 mean 1.5
+    use HasPriceVatTrait;
+}
+```
+
+`calcPriceBreakdown()` returns every step — subtotal, discount, one `VatLine` per rate, total, final — computed by `PriceCalculatorHelper`, the only place the rules live. The stored `priceTotal` is refreshed by every setter and never holds the override; `calcPriceFinal()` returns the override when one is set.
+
+`MoneyHelper::fromDecimal('1 234,56', 'EUR')` rounds rather than truncates and reads decimal commas; `RateHelper` does integer percentage maths and splits an amount across weights without losing a cent. `MoneyFormatter` and the Twig filters `price`, `price_number` and `rate` format for the locale.
+
 ## Table of Contents
 
+- [Prices](#prices)
 - [Architecture](#architecture)
 - [Integration in the Suite](#integration-in-the-suite)
 - [Dependencies](#dependencies)
@@ -67,6 +97,10 @@ Controllers get `controller.service_arguments`, normalizers get `serializer.norm
 
 The scope is the currency table and its edges. There is no amount or money value object here, no arithmetic, no exchange rate, and no price entity: an application stores its own amounts and attaches a currency to them. The two intended attachment points are `HasCurrencyCodeTrait` and `HasCurrencySymbolTrait`, meant to be used on your entities rather than only on `Currency` — which is why they live in `Entity/Traits/` and not inside the entity file.
 
+### Pricing engine
+
+src/Helper/PriceCalculatorHelper.php holds the rules: a line is raw × quantity, minus its discount, plus VAT on that net; a parent groups its children's nets by VAT rate, spreads its own discount over those bases in proportion (src/Helper/RateHelper.php `allocate()`), and computes each rate's VAT once. An overridden child counts for the base its final price implies. The traits in src/Entity/Traits only store and expose; they never compute on their own, so no trait combination can diverge from the rules.
+
 ## Integration in the Suite
 
 This package is part of the Wexample Suite — a collection of high-quality, modular tools designed to work seamlessly together across multiple languages and environments.
@@ -80,9 +114,9 @@ Visit the [Wexample Suite documentation](https://docs.wexample.com) for the comp
 ## Dependencies
 
 - php: >=8.5
-- wexample/symfony-helpers: >=12.0.0
+- wexample/symfony-helpers: >=13.0.0
 - wexample/symfony-api: >=8.0.0
-- wexample/symfony-forms: >=9.0.0
+- wexample/symfony-forms: >=10.0.0
 - wexample/php-pseudocode: >=1.0.0
 - wexample/symfony-pseudocode: >=3.0.0
 - symfony/intl: >=6.2

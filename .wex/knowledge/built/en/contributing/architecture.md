@@ -50,3 +50,7 @@ Controllers get `controller.service_arguments`, normalizers get `serializer.norm
 ### Where the bundle stops
 
 The scope is the currency table and its edges. There is no amount or money value object here, no arithmetic, no exchange rate, and no price entity: an application stores its own amounts and attaches a currency to them. The two intended attachment points are `HasCurrencyCodeTrait` and `HasCurrencySymbolTrait`, meant to be used on your entities rather than only on `Currency` — which is why they live in `Entity/Traits/` and not inside the entity file.
+
+### Pricing engine
+
+src/Helper/PriceCalculatorHelper.php holds the rules: a line is raw × quantity, minus its discount, plus VAT on that net; a parent groups its children's nets by VAT rate, spreads its own discount over those bases in proportion (src/Helper/RateHelper.php `allocate()`), and computes each rate's VAT once. An overridden child counts for the base its final price implies. The traits in src/Entity/Traits only store and expose; they never compute on their own, so no trait combination can diverge from the rules.
