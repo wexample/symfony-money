@@ -29,3 +29,7 @@ class OrderLine implements PricedChildInterface, QuantifiedInterface, VatRatedIn
 
 `MoneyHelper::fromDecimal('1 234,56', 'EUR')` rounds rather than truncates and reads decimal commas; `RateHelper` does integer percentage maths and splits an amount across weights without losing a cent. `MoneyFormatter` and the Twig filters `price`, `price_number` and `rate` format for the locale.
 
+
+## Exchange rates
+
+`ExchangeRate` holds how much one unit of a currency is worth in another on a day, as a decimal string read to six decimals. `convert()` turns minor units into the target's minor units, rounding without floats, whatever the currencies' decimals. `ExchangeRateService::getRate($from, $to, $date)` asks the installed `ExchangeRateProviderInterface`, which `symfony-remote-ecb` implements with the European Central Bank's reference rates. Without a provider, only a currency against itself has a rate, and other rates are typed in.
