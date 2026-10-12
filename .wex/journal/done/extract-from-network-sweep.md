@@ -1,8 +1,15 @@
 # Money: front formatting and Twig price filters from network (complements extract-from-network.md)
 
 Opened: 2026-09-24
-Updated: 2026-09-24
+Updated: 2026-10-12
 Author: agent:archeology
+
+## Fermé le 2026-10-12 (agent:main)
+
+- Étape 2 : `numberFormatMoney` dans `symfony-design-system/assets/js/Helper/NumberHelper.ts` (Intl, même ICU que PHP), testé contre les chaînes de `MoneyFormatterTest` (`tests/js/NumberHelper.test.ts`). Le format compact « 1k » reste aux graphiques.
+- Suffixe HT / TTC : filtres Twig `price_excl_tax` / `price_incl_tax`, traduits par le domaine `money` (`src/Resources/translations/money.{en,fr,fr_BE}.yaml` : excl. / incl. VAT, HT / TTC, HTVA / TVAC), qu'une app peut surcharger.
+- Étape 3 (calcul en direct sur les formulaires) : reportée à l'interface de la compta, `symfony-accounting/.wex/journal/todo/api-and-interface.md`.
+- Étape 4 : `RateHelper` (points de base, entiers).
 
 ## Status (2026-10-04)
 

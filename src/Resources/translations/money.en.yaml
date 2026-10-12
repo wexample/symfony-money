@@ -1,0 +1,4 @@
+price:
+  tax:
+    excluded: excl. VAT
+    included: incl. VAT
