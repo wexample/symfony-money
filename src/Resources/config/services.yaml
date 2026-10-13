@@ -11,6 +11,8 @@ services:
     Wexample\SymfonyMoney\:
         resource: '../../{Form,Repository,Service,Twig}'
 
+    Wexample\SymfonyMoney\Interface\VatRateResolverInterface: '@Wexample\SymfonyMoney\Service\DefaultVatRateResolver'
+
     Wexample\SymfonyMoney\Service\MoneyFormatter:
         arguments:
             $defaultLocale: '%kernel.default_locale%'
