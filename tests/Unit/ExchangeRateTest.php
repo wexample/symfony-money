@@ -48,7 +48,7 @@ class ExchangeRateTest extends TestCase
         $this->assertSame('1', $service->getRate('eur', 'EUR', $date)->rate);
         $this->assertNull($service->getRate('USD', 'EUR', $date));
 
-        $provider = new class implements ExchangeRateProviderInterface {
+        $provider = new class () implements ExchangeRateProviderInterface {
             public function getRate(string $from, string $to, DateTimeImmutable $date): ?ExchangeRate
             {
                 return new ExchangeRate($from, $to, '0.92', $date, 'test');
