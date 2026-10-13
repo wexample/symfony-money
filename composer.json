@@ -3,7 +3,7 @@
   "description": "Symfony helpers to manage money, currencies and priced entities",
   "type": "library",
   "license": "MIT",
-  "version": "6.0.0",
+  "version": "6.0.1",
   "autoload": {
     "psr-4": {
       "Wexample\\SymfonyMoney\\": "src/"
