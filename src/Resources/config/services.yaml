@@ -9,7 +9,7 @@ services:
             tags: ['wexample.symfony_forms.form_processor']
 
     Wexample\SymfonyMoney\:
-        resource: '../../{Form,Repository,Service,Twig}'
+        resource: '../../{Command,Form,Repository,Service,Twig}'
 
     Wexample\SymfonyMoney\Interface\VatRateResolverInterface: '@Wexample\SymfonyMoney\Service\DefaultVatRateResolver'
 
