@@ -42,3 +42,212 @@ ar:
     type: نوع
     currencySymbol: رمز
     decimals: كسور
+
+hi:
+  name:
+    single: मुद्रा
+    plural: मुद्राएँ
+  field:
+    currencyCode: कोड
+    name: नाम
+    type: प्रकार
+    currencySymbol: चिन्ह
+    decimals: दशमलव
+
+he:
+  name:
+    single: מטבע
+    plural: מטבעות
+  field:
+    currencyCode: קוד
+    name: שם
+    type: סוג
+    currencySymbol: סימן
+    decimals: 'מקומות עשרוניים'
+
+fa:
+  name:
+    single: 'واحد پول'
+    plural: 'واحدهای پول'
+  field:
+    currencyCode: کد
+    name: نام
+    type: نوع
+    currencySymbol: نماد
+    decimals: اعشار
+
+ur:
+  name:
+    single: کرنسی
+    plural: کرنسیاں
+  field:
+    currencyCode: کوڈ
+    name: نام
+    type: نوع
+    currencySymbol: علامت
+    decimals: اعشاریہ
+
+ja:
+  name:
+    single: 通貨
+    plural: 通貨
+  field:
+    currencyCode: コード
+    name: 名前
+    type: 種類
+    currencySymbol: 記号
+    decimals: 小数点
+
+ko:
+  name:
+    single: 통화
+    plural: 통화들
+  field:
+    currencyCode: 코드
+    name: 이름
+    type: 유형
+    currencySymbol: 기호
+    decimals: 소수
+
+bn:
+  name:
+    single: মুদ্রা
+    plural: মুদ্রাসমূহ
+  field:
+    currencyCode: কোড
+    name: নাম
+    type: প্রকার
+    currencySymbol: চিহ্ন
+    decimals: দশমিক
+
+th:
+  name:
+    single: สกุลเงิน
+    plural: สกุลเงิน
+  field:
+    currencyCode: รหัส
+    name: ชื่อ
+    type: ประเภท
+    currencySymbol: สัญลักษณ์
+    decimals: จำนวนทศนิยม
+
+de:
+  name:
+    single: Währung
+    plural: Währungen
+  field:
+    currencyCode: Code
+    name: Name
+    type: Typ
+    currencySymbol: Symbol
+    decimals: Dezimalstellen
+
+fi:
+  name:
+    single: ' valuutta'
+    plural: ' valuutat'
+  field:
+    currencyCode: koodi
+    name: nimi
+    type: tyyppi
+    currencySymbol: symboli
+    decimals: desimaalit
+
+ru:
+  name:
+    single: Валюта
+    plural: Валюты
+  field:
+    currencyCode: Код
+    name: Название
+    type: Тип
+    currencySymbol: Символ
+    decimals: Десятичные
+
+pl:
+  name:
+    single: Waluta
+    plural: Waluty
+  field:
+    currencyCode: Kod
+    name: Nazwa
+    type: Typ
+    currencySymbol: Symbol
+    decimals: 'Liczba miejsc po przecinku'
+
+es:
+  name:
+    single: Moneda
+    plural: Monedas
+  field:
+    currencyCode: Código
+    name: Nombre
+    type: Tipo
+    currencySymbol: Símbolo
+    decimals: Decimales
+
+it:
+  name:
+    single: Valuta
+    plural: Valute
+  field:
+    currencyCode: Codice
+    name: Nome
+    type: Tipo
+    currencySymbol: Simbolo
+    decimals: Decimali
+
+pt_BR:
+  name:
+    single: Moeda
+    plural: Moedas
+  field:
+    currencyCode: Código
+    name: Nome
+    type: Tipo
+    currencySymbol: Símbolo
+    decimals: Decimais
+
+tr:
+  name:
+    single: 'Para Birimi'
+    plural: 'Para Birimleri'
+  field:
+    currencyCode: Kod
+    name: İsim
+    type: Tür
+    currencySymbol: Sembol
+    decimals: Ondalık
+
+vi:
+  name:
+    single: 'Tiền tệ'
+    plural: 'Tiền tệ'
+  field:
+    currencyCode: Mã
+    name: Tên
+    type: Loại
+    currencySymbol: 'Ký hiệu'
+    decimals: 'Số thập phân'
+
+id:
+  name:
+    single: 'Mata Uang'
+    plural: 'Mata Uang'
+  field:
+    currencyCode: Kode
+    name: Nama
+    type: Tipe
+    currencySymbol: Simbol
+    decimals: Desimal
+
+nl:
+  name:
+    single: Valuta
+    plural: Valuta
+  field:
+    currencyCode: Code
+    name: Naam
+    type: Type
+    currencySymbol: Symbool
+    decimals: Decimalen

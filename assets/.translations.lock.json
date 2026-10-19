@@ -29,7 +29,577 @@
             "engine": "syrtis"
         }
     },
+    "entity/currency.bn.yml": {
+        "field.currencyCode": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "name.plural": {
+            "hash": "b38ece98f62a10355547fdcbc718a042",
+            "engine": "syrtis"
+        },
+        "name.single": {
+            "hash": "d16369ed9214bf2cd0109e9928eecb6e",
+            "engine": "syrtis"
+        }
+    },
+    "entity/currency.de.yml": {
+        "field.currencyCode": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "name.plural": {
+            "hash": "b38ece98f62a10355547fdcbc718a042",
+            "engine": "syrtis"
+        },
+        "name.single": {
+            "hash": "d16369ed9214bf2cd0109e9928eecb6e",
+            "engine": "syrtis"
+        }
+    },
+    "entity/currency.es.yml": {
+        "field.currencyCode": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "name.plural": {
+            "hash": "b38ece98f62a10355547fdcbc718a042",
+            "engine": "syrtis"
+        },
+        "name.single": {
+            "hash": "d16369ed9214bf2cd0109e9928eecb6e",
+            "engine": "syrtis"
+        }
+    },
+    "entity/currency.fa.yml": {
+        "field.currencyCode": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "name.plural": {
+            "hash": "b38ece98f62a10355547fdcbc718a042",
+            "engine": "syrtis"
+        },
+        "name.single": {
+            "hash": "d16369ed9214bf2cd0109e9928eecb6e",
+            "engine": "syrtis"
+        }
+    },
+    "entity/currency.fi.yml": {
+        "field.currencyCode": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "name.plural": {
+            "hash": "b38ece98f62a10355547fdcbc718a042",
+            "engine": "syrtis"
+        },
+        "name.single": {
+            "hash": "d16369ed9214bf2cd0109e9928eecb6e",
+            "engine": "syrtis"
+        }
+    },
     "entity/currency.fr.yml": {
+        "field.currencyCode": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "name.plural": {
+            "hash": "b38ece98f62a10355547fdcbc718a042",
+            "engine": "syrtis"
+        },
+        "name.single": {
+            "hash": "d16369ed9214bf2cd0109e9928eecb6e",
+            "engine": "syrtis"
+        }
+    },
+    "entity/currency.he.yml": {
+        "field.currencyCode": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "name.plural": {
+            "hash": "b38ece98f62a10355547fdcbc718a042",
+            "engine": "syrtis"
+        },
+        "name.single": {
+            "hash": "d16369ed9214bf2cd0109e9928eecb6e",
+            "engine": "syrtis"
+        }
+    },
+    "entity/currency.hi.yml": {
+        "field.currencyCode": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "name.plural": {
+            "hash": "b38ece98f62a10355547fdcbc718a042",
+            "engine": "syrtis"
+        },
+        "name.single": {
+            "hash": "d16369ed9214bf2cd0109e9928eecb6e",
+            "engine": "syrtis"
+        }
+    },
+    "entity/currency.id.yml": {
+        "field.currencyCode": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "name.plural": {
+            "hash": "b38ece98f62a10355547fdcbc718a042",
+            "engine": "syrtis"
+        },
+        "name.single": {
+            "hash": "d16369ed9214bf2cd0109e9928eecb6e",
+            "engine": "syrtis"
+        }
+    },
+    "entity/currency.it.yml": {
+        "field.currencyCode": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "name.plural": {
+            "hash": "b38ece98f62a10355547fdcbc718a042",
+            "engine": "syrtis"
+        },
+        "name.single": {
+            "hash": "d16369ed9214bf2cd0109e9928eecb6e",
+            "engine": "syrtis"
+        }
+    },
+    "entity/currency.ja.yml": {
+        "field.currencyCode": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "name.plural": {
+            "hash": "b38ece98f62a10355547fdcbc718a042",
+            "engine": "syrtis"
+        },
+        "name.single": {
+            "hash": "d16369ed9214bf2cd0109e9928eecb6e",
+            "engine": "syrtis"
+        }
+    },
+    "entity/currency.ko.yml": {
+        "field.currencyCode": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "name.plural": {
+            "hash": "b38ece98f62a10355547fdcbc718a042",
+            "engine": "syrtis"
+        },
+        "name.single": {
+            "hash": "d16369ed9214bf2cd0109e9928eecb6e",
+            "engine": "syrtis"
+        }
+    },
+    "entity/currency.nl.yml": {
+        "field.currencyCode": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "name.plural": {
+            "hash": "b38ece98f62a10355547fdcbc718a042",
+            "engine": "syrtis"
+        },
+        "name.single": {
+            "hash": "d16369ed9214bf2cd0109e9928eecb6e",
+            "engine": "syrtis"
+        }
+    },
+    "entity/currency.pl.yml": {
+        "field.currencyCode": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "name.plural": {
+            "hash": "b38ece98f62a10355547fdcbc718a042",
+            "engine": "syrtis"
+        },
+        "name.single": {
+            "hash": "d16369ed9214bf2cd0109e9928eecb6e",
+            "engine": "syrtis"
+        }
+    },
+    "entity/currency.pt_BR.yml": {
+        "field.currencyCode": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "name.plural": {
+            "hash": "b38ece98f62a10355547fdcbc718a042",
+            "engine": "syrtis"
+        },
+        "name.single": {
+            "hash": "d16369ed9214bf2cd0109e9928eecb6e",
+            "engine": "syrtis"
+        }
+    },
+    "entity/currency.ru.yml": {
+        "field.currencyCode": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "name.plural": {
+            "hash": "b38ece98f62a10355547fdcbc718a042",
+            "engine": "syrtis"
+        },
+        "name.single": {
+            "hash": "d16369ed9214bf2cd0109e9928eecb6e",
+            "engine": "syrtis"
+        }
+    },
+    "entity/currency.th.yml": {
+        "field.currencyCode": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "name.plural": {
+            "hash": "b38ece98f62a10355547fdcbc718a042",
+            "engine": "syrtis"
+        },
+        "name.single": {
+            "hash": "d16369ed9214bf2cd0109e9928eecb6e",
+            "engine": "syrtis"
+        }
+    },
+    "entity/currency.tr.yml": {
+        "field.currencyCode": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "name.plural": {
+            "hash": "b38ece98f62a10355547fdcbc718a042",
+            "engine": "syrtis"
+        },
+        "name.single": {
+            "hash": "d16369ed9214bf2cd0109e9928eecb6e",
+            "engine": "syrtis"
+        }
+    },
+    "entity/currency.ur.yml": {
+        "field.currencyCode": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "name.plural": {
+            "hash": "b38ece98f62a10355547fdcbc718a042",
+            "engine": "syrtis"
+        },
+        "name.single": {
+            "hash": "d16369ed9214bf2cd0109e9928eecb6e",
+            "engine": "syrtis"
+        }
+    },
+    "entity/currency.vi.yml": {
         "field.currencyCode": {
             "hash": "4db727b1f7912e23036a40cafa2b6efa",
             "engine": "syrtis"
@@ -131,7 +701,805 @@
             "engine": "syrtis"
         }
     },
+    "forms/currency_form.bn.yml": {
+        "action.submit": {
+            "hash": "cfd38aa1d471aa99c901bc5d0c40d4fe",
+            "engine": "syrtis"
+        },
+        "error.ERR_CURRENCY_CODE_ALREADY_USED.message": {
+            "hash": "230803fe301c3d3858ce3bd0a652d12c",
+            "engine": "syrtis"
+        },
+        "field.currencyCode.label": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol.label": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals.label": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name.label": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type.choice.crypto.label": {
+            "hash": "3c3e43fc5b1c0cc093e12bbea1f695a0",
+            "engine": "syrtis"
+        },
+        "field.type.choice.fiat.label": {
+            "hash": "45dc6a1cffbbed13673602f9e12a02e1",
+            "engine": "syrtis"
+        },
+        "field.type.label": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "success.message": {
+            "hash": "cfdbb132d3cfe4b8564257a8b03000d3",
+            "engine": "syrtis"
+        }
+    },
+    "forms/currency_form.de.yml": {
+        "action.submit": {
+            "hash": "cfd38aa1d471aa99c901bc5d0c40d4fe",
+            "engine": "syrtis"
+        },
+        "error.ERR_CURRENCY_CODE_ALREADY_USED.message": {
+            "hash": "230803fe301c3d3858ce3bd0a652d12c",
+            "engine": "syrtis"
+        },
+        "field.currencyCode.label": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol.label": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals.label": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name.label": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type.choice.crypto.label": {
+            "hash": "3c3e43fc5b1c0cc093e12bbea1f695a0",
+            "engine": "syrtis"
+        },
+        "field.type.choice.fiat.label": {
+            "hash": "45dc6a1cffbbed13673602f9e12a02e1",
+            "engine": "syrtis"
+        },
+        "field.type.label": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "success.message": {
+            "hash": "cfdbb132d3cfe4b8564257a8b03000d3",
+            "engine": "syrtis"
+        }
+    },
+    "forms/currency_form.es.yml": {
+        "action.submit": {
+            "hash": "cfd38aa1d471aa99c901bc5d0c40d4fe",
+            "engine": "syrtis"
+        },
+        "error.ERR_CURRENCY_CODE_ALREADY_USED.message": {
+            "hash": "230803fe301c3d3858ce3bd0a652d12c",
+            "engine": "syrtis"
+        },
+        "field.currencyCode.label": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol.label": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals.label": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name.label": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type.choice.crypto.label": {
+            "hash": "3c3e43fc5b1c0cc093e12bbea1f695a0",
+            "engine": "syrtis"
+        },
+        "field.type.choice.fiat.label": {
+            "hash": "45dc6a1cffbbed13673602f9e12a02e1",
+            "engine": "syrtis"
+        },
+        "field.type.label": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "success.message": {
+            "hash": "cfdbb132d3cfe4b8564257a8b03000d3",
+            "engine": "syrtis"
+        }
+    },
+    "forms/currency_form.fa.yml": {
+        "action.submit": {
+            "hash": "cfd38aa1d471aa99c901bc5d0c40d4fe",
+            "engine": "syrtis"
+        },
+        "error.ERR_CURRENCY_CODE_ALREADY_USED.message": {
+            "hash": "230803fe301c3d3858ce3bd0a652d12c",
+            "engine": "syrtis"
+        },
+        "field.currencyCode.label": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol.label": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals.label": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name.label": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type.choice.crypto.label": {
+            "hash": "3c3e43fc5b1c0cc093e12bbea1f695a0",
+            "engine": "syrtis"
+        },
+        "field.type.choice.fiat.label": {
+            "hash": "45dc6a1cffbbed13673602f9e12a02e1",
+            "engine": "syrtis"
+        },
+        "field.type.label": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "success.message": {
+            "hash": "cfdbb132d3cfe4b8564257a8b03000d3",
+            "engine": "syrtis"
+        }
+    },
+    "forms/currency_form.fi.yml": {
+        "action.submit": {
+            "hash": "cfd38aa1d471aa99c901bc5d0c40d4fe",
+            "engine": "syrtis"
+        },
+        "error.ERR_CURRENCY_CODE_ALREADY_USED.message": {
+            "hash": "230803fe301c3d3858ce3bd0a652d12c",
+            "engine": "syrtis"
+        },
+        "field.currencyCode.label": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol.label": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals.label": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name.label": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type.choice.crypto.label": {
+            "hash": "3c3e43fc5b1c0cc093e12bbea1f695a0",
+            "engine": "syrtis"
+        },
+        "field.type.choice.fiat.label": {
+            "hash": "45dc6a1cffbbed13673602f9e12a02e1",
+            "engine": "syrtis"
+        },
+        "field.type.label": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "success.message": {
+            "hash": "cfdbb132d3cfe4b8564257a8b03000d3",
+            "engine": "syrtis"
+        }
+    },
     "forms/currency_form.fr.yml": {
+        "action.submit": {
+            "hash": "cfd38aa1d471aa99c901bc5d0c40d4fe",
+            "engine": "syrtis"
+        },
+        "error.ERR_CURRENCY_CODE_ALREADY_USED.message": {
+            "hash": "230803fe301c3d3858ce3bd0a652d12c",
+            "engine": "syrtis"
+        },
+        "field.currencyCode.label": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol.label": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals.label": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name.label": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type.choice.crypto.label": {
+            "hash": "3c3e43fc5b1c0cc093e12bbea1f695a0",
+            "engine": "syrtis"
+        },
+        "field.type.choice.fiat.label": {
+            "hash": "45dc6a1cffbbed13673602f9e12a02e1",
+            "engine": "syrtis"
+        },
+        "field.type.label": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "success.message": {
+            "hash": "cfdbb132d3cfe4b8564257a8b03000d3",
+            "engine": "syrtis"
+        }
+    },
+    "forms/currency_form.he.yml": {
+        "action.submit": {
+            "hash": "cfd38aa1d471aa99c901bc5d0c40d4fe",
+            "engine": "syrtis"
+        },
+        "error.ERR_CURRENCY_CODE_ALREADY_USED.message": {
+            "hash": "230803fe301c3d3858ce3bd0a652d12c",
+            "engine": "syrtis"
+        },
+        "field.currencyCode.label": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol.label": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals.label": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name.label": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type.choice.crypto.label": {
+            "hash": "3c3e43fc5b1c0cc093e12bbea1f695a0",
+            "engine": "syrtis"
+        },
+        "field.type.choice.fiat.label": {
+            "hash": "45dc6a1cffbbed13673602f9e12a02e1",
+            "engine": "syrtis"
+        },
+        "field.type.label": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "success.message": {
+            "hash": "cfdbb132d3cfe4b8564257a8b03000d3",
+            "engine": "syrtis"
+        }
+    },
+    "forms/currency_form.hi.yml": {
+        "action.submit": {
+            "hash": "cfd38aa1d471aa99c901bc5d0c40d4fe",
+            "engine": "syrtis"
+        },
+        "error.ERR_CURRENCY_CODE_ALREADY_USED.message": {
+            "hash": "230803fe301c3d3858ce3bd0a652d12c",
+            "engine": "syrtis"
+        },
+        "field.currencyCode.label": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol.label": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals.label": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name.label": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type.choice.crypto.label": {
+            "hash": "3c3e43fc5b1c0cc093e12bbea1f695a0",
+            "engine": "syrtis"
+        },
+        "field.type.choice.fiat.label": {
+            "hash": "45dc6a1cffbbed13673602f9e12a02e1",
+            "engine": "syrtis"
+        },
+        "field.type.label": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "success.message": {
+            "hash": "cfdbb132d3cfe4b8564257a8b03000d3",
+            "engine": "syrtis"
+        }
+    },
+    "forms/currency_form.id.yml": {
+        "action.submit": {
+            "hash": "cfd38aa1d471aa99c901bc5d0c40d4fe",
+            "engine": "syrtis"
+        },
+        "error.ERR_CURRENCY_CODE_ALREADY_USED.message": {
+            "hash": "230803fe301c3d3858ce3bd0a652d12c",
+            "engine": "syrtis"
+        },
+        "field.currencyCode.label": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol.label": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals.label": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name.label": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type.choice.crypto.label": {
+            "hash": "3c3e43fc5b1c0cc093e12bbea1f695a0",
+            "engine": "syrtis"
+        },
+        "field.type.choice.fiat.label": {
+            "hash": "45dc6a1cffbbed13673602f9e12a02e1",
+            "engine": "syrtis"
+        },
+        "field.type.label": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "success.message": {
+            "hash": "cfdbb132d3cfe4b8564257a8b03000d3",
+            "engine": "syrtis"
+        }
+    },
+    "forms/currency_form.it.yml": {
+        "action.submit": {
+            "hash": "cfd38aa1d471aa99c901bc5d0c40d4fe",
+            "engine": "syrtis"
+        },
+        "error.ERR_CURRENCY_CODE_ALREADY_USED.message": {
+            "hash": "230803fe301c3d3858ce3bd0a652d12c",
+            "engine": "syrtis"
+        },
+        "field.currencyCode.label": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol.label": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals.label": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name.label": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type.choice.crypto.label": {
+            "hash": "3c3e43fc5b1c0cc093e12bbea1f695a0",
+            "engine": "syrtis"
+        },
+        "field.type.choice.fiat.label": {
+            "hash": "45dc6a1cffbbed13673602f9e12a02e1",
+            "engine": "syrtis"
+        },
+        "field.type.label": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "success.message": {
+            "hash": "cfdbb132d3cfe4b8564257a8b03000d3",
+            "engine": "syrtis"
+        }
+    },
+    "forms/currency_form.ja.yml": {
+        "action.submit": {
+            "hash": "cfd38aa1d471aa99c901bc5d0c40d4fe",
+            "engine": "syrtis"
+        },
+        "error.ERR_CURRENCY_CODE_ALREADY_USED.message": {
+            "hash": "230803fe301c3d3858ce3bd0a652d12c",
+            "engine": "syrtis"
+        },
+        "field.currencyCode.label": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol.label": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals.label": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name.label": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type.choice.crypto.label": {
+            "hash": "3c3e43fc5b1c0cc093e12bbea1f695a0",
+            "engine": "syrtis"
+        },
+        "field.type.choice.fiat.label": {
+            "hash": "45dc6a1cffbbed13673602f9e12a02e1",
+            "engine": "syrtis"
+        },
+        "field.type.label": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "success.message": {
+            "hash": "cfdbb132d3cfe4b8564257a8b03000d3",
+            "engine": "syrtis"
+        }
+    },
+    "forms/currency_form.ko.yml": {
+        "action.submit": {
+            "hash": "cfd38aa1d471aa99c901bc5d0c40d4fe",
+            "engine": "syrtis"
+        },
+        "error.ERR_CURRENCY_CODE_ALREADY_USED.message": {
+            "hash": "230803fe301c3d3858ce3bd0a652d12c",
+            "engine": "syrtis"
+        },
+        "field.currencyCode.label": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol.label": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals.label": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name.label": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type.choice.crypto.label": {
+            "hash": "3c3e43fc5b1c0cc093e12bbea1f695a0",
+            "engine": "syrtis"
+        },
+        "field.type.choice.fiat.label": {
+            "hash": "45dc6a1cffbbed13673602f9e12a02e1",
+            "engine": "syrtis"
+        },
+        "field.type.label": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "success.message": {
+            "hash": "cfdbb132d3cfe4b8564257a8b03000d3",
+            "engine": "syrtis"
+        }
+    },
+    "forms/currency_form.nl.yml": {
+        "action.submit": {
+            "hash": "cfd38aa1d471aa99c901bc5d0c40d4fe",
+            "engine": "syrtis"
+        },
+        "error.ERR_CURRENCY_CODE_ALREADY_USED.message": {
+            "hash": "230803fe301c3d3858ce3bd0a652d12c",
+            "engine": "syrtis"
+        },
+        "field.currencyCode.label": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol.label": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals.label": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name.label": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type.choice.crypto.label": {
+            "hash": "3c3e43fc5b1c0cc093e12bbea1f695a0",
+            "engine": "syrtis"
+        },
+        "field.type.choice.fiat.label": {
+            "hash": "45dc6a1cffbbed13673602f9e12a02e1",
+            "engine": "syrtis"
+        },
+        "field.type.label": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "success.message": {
+            "hash": "cfdbb132d3cfe4b8564257a8b03000d3",
+            "engine": "syrtis"
+        }
+    },
+    "forms/currency_form.pl.yml": {
+        "action.submit": {
+            "hash": "cfd38aa1d471aa99c901bc5d0c40d4fe",
+            "engine": "syrtis"
+        },
+        "error.ERR_CURRENCY_CODE_ALREADY_USED.message": {
+            "hash": "230803fe301c3d3858ce3bd0a652d12c",
+            "engine": "syrtis"
+        },
+        "field.currencyCode.label": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol.label": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals.label": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name.label": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type.choice.crypto.label": {
+            "hash": "3c3e43fc5b1c0cc093e12bbea1f695a0",
+            "engine": "syrtis"
+        },
+        "field.type.choice.fiat.label": {
+            "hash": "45dc6a1cffbbed13673602f9e12a02e1",
+            "engine": "syrtis"
+        },
+        "field.type.label": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "success.message": {
+            "hash": "cfdbb132d3cfe4b8564257a8b03000d3",
+            "engine": "syrtis"
+        }
+    },
+    "forms/currency_form.pt_BR.yml": {
+        "action.submit": {
+            "hash": "cfd38aa1d471aa99c901bc5d0c40d4fe",
+            "engine": "syrtis"
+        },
+        "error.ERR_CURRENCY_CODE_ALREADY_USED.message": {
+            "hash": "230803fe301c3d3858ce3bd0a652d12c",
+            "engine": "syrtis"
+        },
+        "field.currencyCode.label": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol.label": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals.label": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name.label": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type.choice.crypto.label": {
+            "hash": "3c3e43fc5b1c0cc093e12bbea1f695a0",
+            "engine": "syrtis"
+        },
+        "field.type.choice.fiat.label": {
+            "hash": "45dc6a1cffbbed13673602f9e12a02e1",
+            "engine": "syrtis"
+        },
+        "field.type.label": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "success.message": {
+            "hash": "cfdbb132d3cfe4b8564257a8b03000d3",
+            "engine": "syrtis"
+        }
+    },
+    "forms/currency_form.ru.yml": {
+        "action.submit": {
+            "hash": "cfd38aa1d471aa99c901bc5d0c40d4fe",
+            "engine": "syrtis"
+        },
+        "error.ERR_CURRENCY_CODE_ALREADY_USED.message": {
+            "hash": "230803fe301c3d3858ce3bd0a652d12c",
+            "engine": "syrtis"
+        },
+        "field.currencyCode.label": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol.label": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals.label": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name.label": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type.choice.crypto.label": {
+            "hash": "3c3e43fc5b1c0cc093e12bbea1f695a0",
+            "engine": "syrtis"
+        },
+        "field.type.choice.fiat.label": {
+            "hash": "45dc6a1cffbbed13673602f9e12a02e1",
+            "engine": "syrtis"
+        },
+        "field.type.label": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "success.message": {
+            "hash": "cfdbb132d3cfe4b8564257a8b03000d3",
+            "engine": "syrtis"
+        }
+    },
+    "forms/currency_form.th.yml": {
+        "action.submit": {
+            "hash": "cfd38aa1d471aa99c901bc5d0c40d4fe",
+            "engine": "syrtis"
+        },
+        "error.ERR_CURRENCY_CODE_ALREADY_USED.message": {
+            "hash": "230803fe301c3d3858ce3bd0a652d12c",
+            "engine": "syrtis"
+        },
+        "field.currencyCode.label": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol.label": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals.label": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name.label": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type.choice.crypto.label": {
+            "hash": "3c3e43fc5b1c0cc093e12bbea1f695a0",
+            "engine": "syrtis"
+        },
+        "field.type.choice.fiat.label": {
+            "hash": "45dc6a1cffbbed13673602f9e12a02e1",
+            "engine": "syrtis"
+        },
+        "field.type.label": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "success.message": {
+            "hash": "cfdbb132d3cfe4b8564257a8b03000d3",
+            "engine": "syrtis"
+        }
+    },
+    "forms/currency_form.tr.yml": {
+        "action.submit": {
+            "hash": "cfd38aa1d471aa99c901bc5d0c40d4fe",
+            "engine": "syrtis"
+        },
+        "error.ERR_CURRENCY_CODE_ALREADY_USED.message": {
+            "hash": "230803fe301c3d3858ce3bd0a652d12c",
+            "engine": "syrtis"
+        },
+        "field.currencyCode.label": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol.label": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals.label": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name.label": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type.choice.crypto.label": {
+            "hash": "3c3e43fc5b1c0cc093e12bbea1f695a0",
+            "engine": "syrtis"
+        },
+        "field.type.choice.fiat.label": {
+            "hash": "45dc6a1cffbbed13673602f9e12a02e1",
+            "engine": "syrtis"
+        },
+        "field.type.label": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "success.message": {
+            "hash": "cfdbb132d3cfe4b8564257a8b03000d3",
+            "engine": "syrtis"
+        }
+    },
+    "forms/currency_form.ur.yml": {
+        "action.submit": {
+            "hash": "cfd38aa1d471aa99c901bc5d0c40d4fe",
+            "engine": "syrtis"
+        },
+        "error.ERR_CURRENCY_CODE_ALREADY_USED.message": {
+            "hash": "230803fe301c3d3858ce3bd0a652d12c",
+            "engine": "syrtis"
+        },
+        "field.currencyCode.label": {
+            "hash": "4db727b1f7912e23036a40cafa2b6efa",
+            "engine": "syrtis"
+        },
+        "field.currencySymbol.label": {
+            "hash": "f383cd1b0cc35f36e0b32f489a97d640",
+            "engine": "syrtis"
+        },
+        "field.decimals.label": {
+            "hash": "2554c65d81f4bc02f41b65b1d45450ba",
+            "engine": "syrtis"
+        },
+        "field.name.label": {
+            "hash": "c1b31e28e8682ebb63815f5281a83b0b",
+            "engine": "syrtis"
+        },
+        "field.type.choice.crypto.label": {
+            "hash": "3c3e43fc5b1c0cc093e12bbea1f695a0",
+            "engine": "syrtis"
+        },
+        "field.type.choice.fiat.label": {
+            "hash": "45dc6a1cffbbed13673602f9e12a02e1",
+            "engine": "syrtis"
+        },
+        "field.type.label": {
+            "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
+            "engine": "syrtis"
+        },
+        "success.message": {
+            "hash": "cfdbb132d3cfe4b8564257a8b03000d3",
+            "engine": "syrtis"
+        }
+    },
+    "forms/currency_form.vi.yml": {
         "action.submit": {
             "hash": "cfd38aa1d471aa99c901bc5d0c40d4fe",
             "engine": "syrtis"

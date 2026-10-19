@@ -100,3 +100,478 @@ ar:
       message: 'هذا الرمز للعملة مستخدم بالفعل.'
   success:
     message: 'تم حفظ العملة'
+
+hi:
+  field:
+    currencyCode:
+      label: कोड
+    name:
+      label: नाम
+    type:
+      label: प्रकार
+      choice:
+        crypto:
+          label: क्रिप्टो
+        fiat:
+          label: फिएट
+    currencySymbol:
+      label: प्रतीक
+    decimals:
+      label: दशमलव
+  action:
+    submit: सहेजें
+  error:
+    ERR_CURRENCY_CODE_ALREADY_USED:
+      message: 'यह मुद्रा कोड पहले से ही उपयोग में है।'
+  success:
+    message: 'मुद्रा सहेजी गई'
+
+he:
+  field:
+    currencyCode:
+      label: קוד
+    name:
+      label: שם
+    type:
+      label: סוג
+      choice:
+        crypto:
+          label: קריפטו
+        fiat:
+          label: פיאט
+    currencySymbol:
+      label: סימול
+    decimals:
+      label: עשרוניים
+  action:
+    submit: שמור
+  error:
+    ERR_CURRENCY_CODE_ALREADY_USED:
+      message: 'קוד המטבע הזה כבר בשימוש.'
+  success:
+    message: 'המטבע נשמר'
+
+fa:
+  field:
+    currencyCode:
+      label: کد
+    name:
+      label: نام
+    type:
+      label: نوع
+      choice:
+        crypto:
+          label: کریپتو
+        fiat:
+          label: فیات
+    currencySymbol:
+      label: نماد
+    decimals:
+      label: اعشار
+  action:
+    submit: ذخیره
+  error:
+    ERR_CURRENCY_CODE_ALREADY_USED:
+      message: 'این کد ارزی قبلاً استفاده شده است.'
+  success:
+    message: 'ارز ذخیره شد'
+
+ur:
+  field:
+    currencyCode:
+      label: کوڈ
+    name:
+      label: نام
+    type:
+      label: قسم
+      choice:
+        crypto:
+          label: کرپٹو
+        fiat:
+          label: فیات
+    currencySymbol:
+      label: نشان
+    decimals:
+      label: اعشاریہ
+  action:
+    submit: 'محفوظ کریں'
+  error:
+    ERR_CURRENCY_CODE_ALREADY_USED:
+      message: 'یہ کرنسی کا کوڈ پہلے ہی استعمال ہو چکا ہے۔'
+  success:
+    message: 'کرنسی محفوظ کر دی گئی'
+
+ja:
+  field:
+    currencyCode:
+      label: コード
+    name:
+      label: 名称
+    type:
+      label: タイプ
+      choice:
+        crypto:
+          label: 暗号通貨
+        fiat:
+          label: フィアット
+    currencySymbol:
+      label: 記号
+    decimals:
+      label: 小数点以下
+  action:
+    submit: 保存
+  error:
+    ERR_CURRENCY_CODE_ALREADY_USED:
+      message: この通貨コードはすでに使用されています。
+  success:
+    message: 通貨が保存されました
+
+ko:
+  field:
+    currencyCode:
+      label: '통화 코드'
+    name:
+      label: 이름
+    type:
+      label: 유형
+      choice:
+        crypto:
+          label: 암호화폐
+        fiat:
+          label: 법정화폐
+    currencySymbol:
+      label: 기호
+    decimals:
+      label: 소수점
+  action:
+    submit: 저장
+  error:
+    ERR_CURRENCY_CODE_ALREADY_USED:
+      message: '이 통화 코드는 이미 사용 중입니다.'
+  success:
+    message: '통화가 저장되었습니다.'
+
+bn:
+  field:
+    currencyCode:
+      label: কোড
+    name:
+      label: নাম
+    type:
+      label: প্রকার
+      choice:
+        crypto:
+          label: ক্রিপ্টো
+        fiat:
+          label: ফিয়াট
+    currencySymbol:
+      label: চিহ্ন
+    decimals:
+      label: দশমিক
+  action:
+    submit: 'সংরক্ষণ করুন'
+  error:
+    ERR_CURRENCY_CODE_ALREADY_USED:
+      message: 'এই মুদ্রার কোড ইতিমধ্যেই ব্যবহৃত হয়েছে।'
+  success:
+    message: 'মুদ্রা সংরক্ষিত হয়েছে'
+
+th:
+  field:
+    currencyCode:
+      label: รหัสสกุลเงิน
+    name:
+      label: ชื่อ
+    type:
+      label: ประเภท
+      choice:
+        crypto:
+          label: คริปโต
+        fiat:
+          label: ฟิอัต
+    currencySymbol:
+      label: สัญลักษณ์
+    decimals:
+      label: ทศนิยม
+  action:
+    submit: บันทึก
+  error:
+    ERR_CURRENCY_CODE_ALREADY_USED:
+      message: รหัสสกุลเงินนี้ถูกใช้งานแล้ว
+  success:
+    message: บันทึกสกุลเงินเรียบร้อย
+
+de:
+  field:
+    currencyCode:
+      label: Code
+    name:
+      label: Name
+    type:
+      label: Typ
+      choice:
+        crypto:
+          label: Krypto
+        fiat:
+          label: Fiat
+    currencySymbol:
+      label: Symbol
+    decimals:
+      label: Dezimalstellen
+  action:
+    submit: Speichern
+  error:
+    ERR_CURRENCY_CODE_ALREADY_USED:
+      message: 'Dieser Währungscode wird bereits verwendet.'
+  success:
+    message: 'Währung gespeichert'
+
+fi:
+  field:
+    currencyCode:
+      label: Koodi
+    name:
+      label: Nimi
+    type:
+      label: Tyyppi
+      choice:
+        crypto:
+          label: Krypto
+        fiat:
+          label: Fiat
+    currencySymbol:
+      label: Symboli
+    decimals:
+      label: Desimaaleja
+  action:
+    submit: Tallenna
+  error:
+    ERR_CURRENCY_CODE_ALREADY_USED:
+      message: 'Tätä valuuttakoodia on jo käytetty.'
+  success:
+    message: 'Valuutta tallennettu'
+
+ru:
+  field:
+    currencyCode:
+      label: Код
+    name:
+      label: Название
+    type:
+      label: Тип
+      choice:
+        crypto:
+          label: Крипто
+        fiat:
+          label: Фиат
+    currencySymbol:
+      label: Символ
+    decimals:
+      label: Десятичные
+  action:
+    submit: Сохранить
+  error:
+    ERR_CURRENCY_CODE_ALREADY_USED:
+      message: 'Этот код валюты уже используется.'
+  success:
+    message: 'Валюта сохранена'
+
+pl:
+  field:
+    currencyCode:
+      label: Kod
+    name:
+      label: Nazwa
+    type:
+      label: Typ
+      choice:
+        crypto:
+          label: Kryptowaluta
+        fiat:
+          label: Fiat
+    currencySymbol:
+      label: Symbol
+    decimals:
+      label: 'Miejsca dziesiętne'
+  action:
+    submit: Zapisz
+  error:
+    ERR_CURRENCY_CODE_ALREADY_USED:
+      message: 'Ten kod waluty jest już używany.'
+  success:
+    message: 'Waluta zapisana'
+
+es:
+  field:
+    currencyCode:
+      label: Código
+    name:
+      label: Nombre
+    type:
+      label: Tipo
+      choice:
+        crypto:
+          label: Cripto
+        fiat:
+          label: Fiat
+    currencySymbol:
+      label: Símbolo
+    decimals:
+      label: Decimales
+  action:
+    submit: Guardar
+  error:
+    ERR_CURRENCY_CODE_ALREADY_USED:
+      message: 'Este código de moneda ya está en uso.'
+  success:
+    message: 'Moneda guardada'
+
+it:
+  field:
+    currencyCode:
+      label: Codice
+    name:
+      label: Nome
+    type:
+      label: Tipo
+      choice:
+        crypto:
+          label: Crypto
+        fiat:
+          label: Fiat
+    currencySymbol:
+      label: Simbolo
+    decimals:
+      label: Decimali
+  action:
+    submit: Salva
+  error:
+    ERR_CURRENCY_CODE_ALREADY_USED:
+      message: 'Questo codice valuta è già in uso.'
+  success:
+    message: 'Valuta salvata'
+
+pt_BR:
+  field:
+    currencyCode:
+      label: Código
+    name:
+      label: Nome
+    type:
+      label: Tipo
+      choice:
+        crypto:
+          label: Cripto
+        fiat:
+          label: Fiat
+    currencySymbol:
+      label: Símbolo
+    decimals:
+      label: Decimais
+  action:
+    submit: Salvar
+  error:
+    ERR_CURRENCY_CODE_ALREADY_USED:
+      message: 'Este código de moeda já está em uso.'
+  success:
+    message: 'Moeda salva'
+
+tr:
+  field:
+    currencyCode:
+      label: Kod
+    name:
+      label: Ad
+    type:
+      label: Tür
+      choice:
+        crypto:
+          label: Kripto
+        fiat:
+          label: Fiat
+    currencySymbol:
+      label: Sembol
+    decimals:
+      label: Ondalık
+  action:
+    submit: Kaydet
+  error:
+    ERR_CURRENCY_CODE_ALREADY_USED:
+      message: 'Bu para birimi kodu zaten kullanılıyor.'
+  success:
+    message: 'Para birimi kaydedildi'
+
+vi:
+  field:
+    currencyCode:
+      label: Mã
+    name:
+      label: Tên
+    type:
+      label: Loại
+      choice:
+        crypto:
+          label: 'Tiền điện tử'
+        fiat:
+          label: 'Tiền pháp định'
+    currencySymbol:
+      label: 'Ký hiệu'
+    decimals:
+      label: 'Số thập phân'
+  action:
+    submit: Lưu
+  error:
+    ERR_CURRENCY_CODE_ALREADY_USED:
+      message: 'Mã tiền tệ này đã được sử dụng.'
+  success:
+    message: 'Tiền tệ đã được lưu'
+
+id:
+  field:
+    currencyCode:
+      label: Kode
+    name:
+      label: Nama
+    type:
+      label: Tipe
+      choice:
+        crypto:
+          label: Kripto
+        fiat:
+          label: Fiat
+    currencySymbol:
+      label: Simbol
+    decimals:
+      label: Desimal
+  action:
+    submit: Simpan
+  error:
+    ERR_CURRENCY_CODE_ALREADY_USED:
+      message: 'Kode mata uang ini sudah digunakan.'
+  success:
+    message: 'Mata uang disimpan'
+
+nl:
+  field:
+    currencyCode:
+      label: Code
+    name:
+      label: Naam
+    type:
+      label: Type
+      choice:
+        crypto:
+          label: Crypto
+        fiat:
+          label: Fiat
+    currencySymbol:
+      label: Symbool
+    decimals:
+      label: Decimalen
+  action:
+    submit: Opslaan
+  error:
+    ERR_CURRENCY_CODE_ALREADY_USED:
+      message: 'Deze valutacode is al in gebruik.'
+  success:
+    message: 'Valuta opgeslagen'
