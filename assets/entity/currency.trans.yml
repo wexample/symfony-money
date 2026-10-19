@@ -9,3 +9,36 @@ en:
     type: Type
     currencySymbol: Symbol
     decimals: Decimals
+
+fr:
+  name:
+    single: Monnaie
+    plural: Monnaies
+  field:
+    currencyCode: Code
+    name: Nom
+    type: Type
+    currencySymbol: Symbole
+    decimals: Décimales
+
+zh:
+  name:
+    single: 货币
+    plural: 货币种类
+  field:
+    currencyCode: 代码
+    name: 名称
+    type: 类型
+    currencySymbol: 符号
+    decimals: 小数位数
+
+ar:
+  name:
+    single: عملة
+    plural: عملات
+  field:
+    currencyCode: رمز
+    name: اسم
+    type: نوع
+    currencySymbol: رمز
+    decimals: كسور

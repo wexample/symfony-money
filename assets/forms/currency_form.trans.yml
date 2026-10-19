@@ -25,3 +25,78 @@ en:
 
   success:
     message: Currency saved
+
+fr:
+  field:
+    currencyCode:
+      label: Code
+    name:
+      label: Nom
+    type:
+      label: Type
+      choice:
+        crypto:
+          label: Crypto
+        fiat:
+          label: Fiat
+    currencySymbol:
+      label: Symbole
+    decimals:
+      label: Décimales
+  action:
+    submit: Enregistrer
+  error:
+    ERR_CURRENCY_CODE_ALREADY_USED:
+      message: 'Ce code de devise est déjà utilisé.'
+  success:
+    message: 'Devise enregistrée'
+
+zh:
+  field:
+    currencyCode:
+      label: 货币代码
+    name:
+      label: 名称
+    type:
+      label: 类型
+      choice:
+        crypto:
+          label: 加密货币
+        fiat:
+          label: 法定货币
+    currencySymbol:
+      label: 符号
+    decimals:
+      label: 小数位数
+  action:
+    submit: 保存
+  error:
+    ERR_CURRENCY_CODE_ALREADY_USED:
+      message: 此货币代码已被使用。
+  success:
+    message: 货币已保存
+
+ar:
+  field:
+    currencyCode:
+      label: رمز
+    name:
+      label: اسم
+    type:
+      label: نوع
+      choice:
+        crypto:
+          label: تشفير
+        fiat:
+          label: فيات
+    currencySymbol:
+      label: 'رمز العملة'
+    decimals:
+      label: 'الأرقام العشرية'
+  action:
+    submit: حفظ
+  error:
+    ERR_CURRENCY_CODE_ALREADY_USED:
+      message: 'هذا الرمز للعملة مستخدم بالفعل.'
+  success:
+    message: 'تم حفظ العملة'
