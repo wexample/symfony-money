@@ -1,6 +1,6 @@
 # symfony_money
 
-Version: 7.0.0
+Version: 7.0.1
 
 A Symfony bundle for applications that store and display monetary amounts: it ships a Doctrine `Currency` entity carrying a code, a symbol, a name and a `decimals` count, typed as either `Currency::TYPE_FIAT` or `Currency::TYPE_CRYPTO`. `CurrencyService::seed()` fills that table from `CurrencyData`, which reads every fiat code from `Symfony\Component\Intl\Currencies` and adds a hand-maintained list of ten crypto-currencies (BTC, ETH, USDT, USDC, BNB, XRP, SOL, ADA, DOGE, TON). Around the entity come the pieces an application would otherwise rewrite — `HasCurrencyCodeTrait` and `HasCurrencySymbolTrait` to attach a currency to your own priced entities, a `CurrencyForm`, and the `api/currency/list` and `api/currency/import` endpoints. From the command line, `php bin/console money:seed` fills the table.
 
@@ -121,16 +121,14 @@ This package is part of the Wexample Suite — a collection of high-quality, mod
 
 The suite includes packages for configuration management, file handling, prompts, and more. Each package can be used independently or as part of the integrated suite.
 
-Visit the [Wexample Suite documentation](https://docs.wexample.com) for the complete package ecosystem.
-
 ## Dependencies
 
 - php: >=8.5
-- wexample/symfony-helpers: >=16.0.0
-- wexample/symfony-api: >=13.0.0
-- wexample/symfony-forms: >=12.0.0
+- wexample/symfony-helpers: >=17.0.0
+- wexample/symfony-api: >=14.0.0
+- wexample/symfony-forms: >=13.0.0
 - wexample/php-pseudocode: >=2.2.0
-- wexample/symfony-pseudocode: >=3.0.0
+- wexample/symfony-pseudocode: >=4.0.0
 - symfony/intl: >=6.2
 - symfony/translation-contracts: >=3.0
 
@@ -157,6 +155,8 @@ Free to use in both personal and commercial projects.
 This packages suite embodies this spirit. Trusted by professionals and enthusiasts alike, it delivers a consistent, high-quality foundation for modern development — open, elegant, and battle-tested. Its reputation is built on years of collaboration, refinement, and rigorous attention to detail, making it a natural choice for those who demand both robustness and beauty in their tools.
 
 Wexample cultivates a culture of mastery. Each package, each contribution carries the mark of a community that values precision, ethics, and innovation — a community proud to shape the future of digital craftsmanship.
+
+Built and maintained by [Romain Weeger](https://weeger.io).
 
 ## Migration Notes
 
