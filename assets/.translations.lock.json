@@ -182,31 +182,38 @@
     "entity/currency.fr.yml": {
         "field.currencyCode": {
             "hash": "4db727b1f7912e23036a40cafa2b6efa",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "field.currencySymbol": {
             "hash": "f383cd1b0cc35f36e0b32f489a97d640",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "field.decimals": {
             "hash": "2554c65d81f4bc02f41b65b1d45450ba",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "field.name": {
             "hash": "c1b31e28e8682ebb63815f5281a83b0b",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "field.type": {
             "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "name.plural": {
             "hash": "b38ece98f62a10355547fdcbc718a042",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "name.single": {
             "hash": "d16369ed9214bf2cd0109e9928eecb6e",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         }
     },
     "entity/currency.he.yml": {
@@ -914,7 +921,8 @@
     "forms/currency_form.fr.yml": {
         "action.submit": {
             "hash": "cfd38aa1d471aa99c901bc5d0c40d4fe",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "error.ERR_CURRENCY_CODE_ALREADY_USED.message": {
             "hash": "230803fe301c3d3858ce3bd0a652d12c",
@@ -922,35 +930,43 @@
         },
         "field.currencyCode.label": {
             "hash": "4db727b1f7912e23036a40cafa2b6efa",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "field.currencySymbol.label": {
             "hash": "f383cd1b0cc35f36e0b32f489a97d640",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "field.decimals.label": {
             "hash": "2554c65d81f4bc02f41b65b1d45450ba",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "field.name.label": {
             "hash": "c1b31e28e8682ebb63815f5281a83b0b",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "field.type.choice.crypto.label": {
             "hash": "3c3e43fc5b1c0cc093e12bbea1f695a0",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "field.type.choice.fiat.label": {
             "hash": "45dc6a1cffbbed13673602f9e12a02e1",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "field.type.label": {
             "hash": "0cbfb00271663e4b2d674541e9e0bdf4",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         },
         "success.message": {
             "hash": "cfdbb132d3cfe4b8564257a8b03000d3",
-            "engine": "syrtis"
+            "engine": "syrtis",
+            "reviewed": "agent"
         }
     },
     "forms/currency_form.he.yml": {
