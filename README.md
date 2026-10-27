@@ -1,6 +1,6 @@
 # symfony_money
 
-Version: 7.0.4
+Version: 7.0.5
 
 Symfony helpers to manage money, currencies and priced entities
 
