@@ -13,7 +13,7 @@ use Wexample\SymfonyMoney\Api\Normalizer\Entity\Currency\DefaultCurrencyNormaliz
 use Wexample\SymfonyMoney\Repository\CurrencyRepository;
 use Wexample\SymfonyMoney\Service\CurrencyService;
 
-#[Route(path: 'api/currency/', name: 'api_currency_')]
+#[Route(path: '_api/currency/', name: 'api_currency_')]
 class CurrencyController extends AbstractApiController
 {
     final public const ROUTE_IMPORT = 'import';

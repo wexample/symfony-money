@@ -12,7 +12,7 @@ use Wexample\SymfonyMoney\WexampleSymfonyMoneyBundle;
 
 /**
  * The currencies of the reference list, written once and updated after: what
- * `api/currency/import` does, for an application with no one to click it.
+ * `_api/currency/import` does, for an application with no one to click it.
  */
 class SeedCommand extends AbstractBundleCommand
 {
