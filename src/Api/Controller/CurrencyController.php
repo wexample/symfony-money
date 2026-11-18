@@ -2,6 +2,9 @@
 
 namespace Wexample\SymfonyMoney\Api\Controller;
 
+use Wexample\SymfonyApi\Api\Attribute\ApiAccess;
+use Wexample\SymfonyHelpers\Helper\RoleHelper;
+use Symfony\Component\Security\Http\Attribute\IsGranted;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Attribute\Route;
 use Wexample\SymfonyApi\Api\Attribute\QueryOption\LengthQueryOption;
@@ -19,7 +22,9 @@ class CurrencyController extends AbstractApiController
     final public const ROUTE_IMPORT = 'import';
     final public const ROUTE_LIST = 'list';
 
+    // Reseeds the shared reference data: an administrator's.
     #[Route(path: 'import', name: self::ROUTE_IMPORT, methods: [Request::METHOD_POST], options: AbstractController::ROUTE_OPTIONS_ONLY_EXPOSE)]
+    #[IsGranted(RoleHelper::ROLE_ADMIN)]
     public function import(CurrencyService $currencyService): ApiResponse
     {
         $currencyService->seed();
@@ -28,6 +33,7 @@ class CurrencyController extends AbstractApiController
     }
 
     #[Route(path: 'list', name: self::ROUTE_LIST, methods: AbstractController::ROUTE_OPTIONS_METHOD_ONLY_GET, options: AbstractController::ROUTE_OPTIONS_ONLY_EXPOSE)]
+    #[ApiAccess(ApiAccess::PUBLIC)]
     #[PageQueryOption]
     #[LengthQueryOption]
     public function list(
